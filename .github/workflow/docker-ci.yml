@@ -2,6 +2,9 @@ name: Docker CI
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - 'main'
 
 env:
   IMAGE_NAME: vlmcsd
@@ -24,7 +27,7 @@ jobs:
         with:
           images: ${{ secrets.DOCKER_USERNAME }}/${{ env.IMAGE_NAME }}
           tags: |
-            latest,enable=${{ github.ref_name == 'master' }}
+            latest
 
       - name: Login to Docker Hub
         uses: docker/login-action@v3.0.0
@@ -36,7 +39,7 @@ jobs:
         uses: docker/build-push-action@v5.1.0
         with:
           context: .
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64,linux/arm64,linux/arm/v7
           push: true
           provenance: false
           tags: ${{ steps.meta.outputs.tags }}
