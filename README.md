@@ -18,9 +18,15 @@ services:
       - 1688:1688/tcp
 ```
 
+## Links
++ [vlmcsd][vlmcsd_link]
++ [source][gh_source_link]
+
 
 [ci_icon]: https://github.com/cwlu2001/docker-vlmcsd/actions/workflows/docker-ci.yml/badge.svg
 [ci_link]: https://github.com/cwlu2001/docker-vlmcsd/actions/workflows/docker-ci.yml
 [docker_pulls]: https://img.shields.io/docker/pulls/cwlu2001/vlmcsd?logo=docker
 [image_size]: https://img.shields.io/docker/image-size/cwlu2001/vlmcsd?logo=docker
 [docker_link]: https://hub.docker.com/r/cwlu2001/vlmcsd
+[vlmcsd_link]: https://github.com/Wind4/vlmcsd
+[gh_source_link]: https://github.com/cwlu2001/docker-vlmcsd
