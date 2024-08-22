@@ -3,6 +3,7 @@ services:
     image: cwlu2001/vlmcsd:latest
     container_name: vlmcsd
     restart: always
+    init: true
     ports:
       - 1688:1688
     
