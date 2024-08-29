@@ -1,5 +1,5 @@
 # docker-vlmcsd
-[![ci_icon]][ci_link] [![docker_pulls]][docker_link] [![image_size]][docker_link]
+[![ci_icon]][ci_link] [![docker_pulls]][docker_link] [![docker_image_size]][docker_link]
 
 ## Run
 ### docker cli
@@ -19,14 +19,12 @@ services:
 ```
 
 ## Links
-+ [vlmcsd][vlmcsd_link]
-+ [source][gh_source_link]
++ [vlmcsd](https://github.com/Wind4/vlmcsd)
++ [source](https://github.com/cwlu2001/docker-vlmcsd)
 
 
-[ci_icon]: https://github.com/cwlu2001/docker-vlmcsd/actions/workflows/docker-ci.yml/badge.svg
-[ci_link]: https://github.com/cwlu2001/docker-vlmcsd/actions/workflows/docker-ci.yml
+[ci_icon]: https://github.com/cwlu2001/docker-build/actions/workflows/vlmcsd.yml/badge.svg
+[ci_link]: https://github.com/cwlu2001/docker-build/actions/workflows/vlmcsd.yml
 [docker_pulls]: https://img.shields.io/docker/pulls/cwlu2001/vlmcsd?logo=docker
-[image_size]: https://img.shields.io/docker/image-size/cwlu2001/vlmcsd?logo=docker
+[docker_image_size]: https://img.shields.io/docker/image-size/cwlu2001/vlmcsd?logo=docker
 [docker_link]: https://hub.docker.com/r/cwlu2001/vlmcsd
-[vlmcsd_link]: https://github.com/Wind4/vlmcsd
-[gh_source_link]: https://github.com/cwlu2001/docker-vlmcsd
