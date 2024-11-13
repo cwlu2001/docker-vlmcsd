@@ -7,12 +7,13 @@
 
 
 ## Run
-### docker cli
+### CLI
 ```bash
 docker run -d --restart=always --name=vlmcsd -p 1688:1688/tcp cwlu2001/vlmcsd:latest
 ```
 
-### docker compose
+### Docker Compose
+docker-compose.yaml
 ```yaml
 services:
   vlmcsd:
