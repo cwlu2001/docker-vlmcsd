@@ -1,4 +1,4 @@
-FROM alpine:3.21.3 AS builder
+FROM alpine:3.22.1 AS builder
 ADD https://github.com/Wind4/vlmcsd.git /build
 WORKDIR /build
 RUN apk add make build-base clang
